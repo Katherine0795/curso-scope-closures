@@ -17,3 +17,8 @@ function bestFruit() {
 //Ejecutamos la funcion
 bestFruit(); // apple
 
+// Otra forma
+function countries () {
+  country = "Colombia"; // variable global sin var, let o const
+  console.log(country);
+}
